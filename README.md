@@ -27,3 +27,8 @@ Add to your hosts file (`/etc/hosts`, etc.):
 
 1. Configure a web server to support SSL and listen on port 443
 2. Point your web server to the `public` directory in this project
+
+### 3. Created an allowed domains list
+
+1. Copy `public/allowed.sample.json` to `public/allowed.json`.
+2. Modify to include domains for which you want allow automatic redirects.
