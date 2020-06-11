@@ -36,5 +36,5 @@ Add to your hosts file (`/etc/hosts`, etc.):
 ### 4. Install UI assets
 
 ```sh
-npm Install
+npm install
 ```
