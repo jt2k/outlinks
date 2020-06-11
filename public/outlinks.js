@@ -7,9 +7,10 @@ try {
         }
     })
     .always(function() {
-        $('#secure').text(url.protocol === 'https:' ? '🔐 Yes' : '⚠️ No');
+        $('#secure').text(url.protocol === 'https:' ? '🔐' : '🔓');
         $('#host').text(url.host);
         $('#url').text(url.href).prop('href', url.href);
+        $('title').append(' [' + url.host + '] ');
         for (let param of params) {
             let tr = $('<tr>');
             tr.append($('<th>').text(param[0]));

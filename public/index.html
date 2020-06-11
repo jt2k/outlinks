@@ -6,19 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Outlinks</title>
         <link rel="stylesheet" href="/assets/lib/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/outlinks.css">
     </head>
     <body>
-        <div class="container my-2 my-sm-4 my-md-5">
-            <h1>Outlinks</h1>
-            <hr />
+        <div class="container my-2">
+            <div class="text-right text-muted text-lowercase"><small>Outlinks</small></div>
+            <h1 class="display-4 mb-0"><span id="secure"></span> <span id="host"></span></h1>
+            <hr class="mt-1 mb-4" />
             <div id="link-valid">
-                <dl class="row">
-                    <dt class="col-sm-2 col-lg-1">Secure?</dt>
-                    <dd class="col-sm-10 col-lg-11" id="secure"></dd>
-                    <dt class="col-sm-2 col-lg-1">Host</dt>
-                    <dd class="col-sm-10 col-lg-11 text-break"><code id="host"></code></dd>
-                </dl>
-                <div class="alert alert-info lead text-break py-lg-4 mb-5">
+                <div class="h2"></div>
+                <div class="alert alert-info lead text-break mb-5">
                     <a class="alert-link" href="" id="url"></a>
                 </div>
                 <details class="text-muted">
