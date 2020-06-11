@@ -32,3 +32,9 @@ Add to your hosts file (`/etc/hosts`, etc.):
 
 1. Copy `public/allowed.sample.json` to `public/allowed.json`.
 2. Modify to include domains for which you want allow automatic redirects.
+
+### 4. Install UI assets
+
+```sh
+npm Install
+```
