@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir -p public/assets/lib/css
+mkdir -p public/assets/lib/js
+
+cp node_modules/bootstrap/dist/css/bootstrap.min.css public/assets/lib/css/
+cp node_modules/jquery/dist/jquery.min.js public/assets/lib/js/

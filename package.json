@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "postinstall": "bin/install-assets"
+  },
+  "name": "outlinks",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1"
+  }
+}
